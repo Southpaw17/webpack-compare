@@ -1,0 +1,38 @@
+body {
+    background-color: #e0e0e0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+.container > * {
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #c8c8c8;
+}
+
+.content {
+    text-align: center;
+}
+
+.content > table {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    height: 50px;
+    text-align: center;
+}
+
+.bigger {
+    background-color: red;
+    color: white;
+}
+
+.smaller {
+    background-color: green;
+    color: white;
+}
