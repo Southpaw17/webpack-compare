@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "bin": {
     "webpack-compare": "index.js"
   },
@@ -23,6 +28,15 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "commitizen": "^2.9.6"
-  }
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Southpaw17/webpack-compare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Southpaw17/webpack-compare/issues"
+  },
+  "homepage": "https://github.com/Southpaw17/webpack-compare#readme"
 }
