@@ -1,5 +1,6 @@
 body {
     background-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -20,19 +21,22 @@ body {
 .content > table {
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
 }
 
-.header {
-    height: 50px;
-    text-align: center;
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #dddddd;
 }
 
 .bigger {
-    background-color: red;
     color: white;
+    font-weight: bold;
+    background-color: rgba(225, 25, 25, .7);
 }
 
 .smaller {
-    background-color: green;
     color: white;
+    font-weight: bold;
+    background-color: rgba(25, 150, 25, .7);
 }
