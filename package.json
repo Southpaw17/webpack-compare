@@ -1,6 +1,6 @@
 {
   "name": "webpack-compare",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Compares file sizes between two stats.json objects.  Useful for comparing results of different configurations.",
   "main": "index.js",
   "scripts": {
