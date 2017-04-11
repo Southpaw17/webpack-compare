@@ -4,17 +4,80 @@
 
 <body>
     <div class='container'>
-        <div class='content'>
-            <table>
-                <tr class='table-header'>
-                    <th>Asset</th>
-                    <th>Old</th>
-                    <th>New</th>
-                    <th>Diff</th>
-                    <th>% Diff</th>
-                </tr>
-                <%= rows %>
-            </table>
+        <div class='panel bigger'>
+            <div class='panel-header'>Larger Bundles</div>
+            <div class='panel-body'>
+                <table>
+                    <tr class='table-header'>
+                        <th>Asset</th>
+                        <th>Old</th>
+                        <th>New</th>
+                        <th>Diff</th>
+                        <th>% Diff</th>
+                    </tr>
+                    <%= bigger %>
+                </table>
+            </div>
+        </div>
+        <div class='panel smaller'>
+            <div class='panel-header'>Smaller Bundles</div>
+            <div class='panel-body'>
+                <table>
+                    <tr class='table-header'>
+                        <th>Asset</th>
+                        <th>Old</th>
+                        <th>New</th>
+                        <th>Diff</th>
+                        <th>% Diff</th>
+                    </tr>
+                    <%= smaller %>
+                </table>
+            </div>
+        </div>
+        <div class='panel removed'>
+            <div class='panel-header'>Removed Bundles</div>
+            <div class='panel-body'>
+                <table>
+                    <tr class='table-header'>
+                        <th>Asset</th>
+                        <th>Old</th>
+                        <th>New</th>
+                        <th>Diff</th>
+                        <th>% Diff</th>
+                    </tr>
+                    <%= onlyOld %>
+                </table>
+            </div>
+        </div>
+        <div class='panel added'>
+            <div class='panel-header'>Added Bundles</div>
+            <div class='panel-body'>
+                <table>
+                    <tr class='table-header'>
+                        <th>Asset</th>
+                        <th>Old</th>
+                        <th>New</th>
+                        <th>Diff</th>
+                        <th>% Diff</th>
+                    </tr>
+                    <%= onlyNew %>
+                </table>
+            </div>
+        </div>
+        <div class='panel same'>
+            <div class='panel-header'>Same-Sized Bundles</div>
+            <div class='panel-body'>
+                <table>
+                    <tr class='table-header'>
+                        <th>Asset</th>
+                        <th>Old</th>
+                        <th>New</th>
+                        <th>Diff</th>
+                        <th>% Diff</th>
+                    </tr>
+                    <%= same %>
+                </table>
+            </div>
         </div>
     </div>
 </body>

@@ -7,18 +7,23 @@ body {
     width: 50%;
     margin: auto;
 }
-.container > * {
+.container > .panel {
     padding: 15px;
     margin: 10px auto;
     background-color: #ffffff;
     box-shadow: 0 0 10px #c8c8c8;
 }
 
-.content {
+.panel {
     text-align: center;
 }
 
-.content > table {
+.panel > .panel-header {
+    color: white;
+    font-weight: bold;
+}
+
+.panel-body > table {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
@@ -29,14 +34,26 @@ th, td {
     border-bottom: 1px solid #dddddd;
 }
 
-.bigger {
-    color: white;
-    font-weight: bold;
+tr:nth-of-type(even) {
+    background-color: #e8e8e8;
+}
+
+.bigger > .panel-header {
     background-color: rgba(225, 25, 25, .7);
 }
 
-.smaller {
-    color: white;
-    font-weight: bold;
+.smaller > .panel-header {
     background-color: rgba(25, 150, 25, .7);
+}
+
+.same > .panel-header {
+    background-color: rgba(25, 25, 150, .7);
+}
+
+.removed > .panel-header {
+    background-color: rgba(25, 25, 150, .7);
+}
+
+.added > .panel-header {
+    background-color: rgba(25, 25, 150, .7);
 }
